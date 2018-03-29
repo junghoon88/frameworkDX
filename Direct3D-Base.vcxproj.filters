@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="source">
+      <UniqueIdentifier>{29a075fd-69df-47b0-a4df-5023e86721cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header">
+      <UniqueIdentifier>{a3c57113-8796-49e4-8a77-d83e56a68af5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="frameworkDX">
+      <UniqueIdentifier>{43c0f3df-b355-41fa-8556-1792dc82ee33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="frameworkDX\objcet">
+      <UniqueIdentifier>{cfc1f45b-ee8f-440c-900f-7b9e4aa67670}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="frameworkDX\ASE">
+      <UniqueIdentifier>{ab27b061-6b52-489e-818d-9e4e0651f414}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="frameworkDX\Map">
+      <UniqueIdentifier>{ec691b72-a28f-40d3-9f5d-fb263975d7e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="frameworkDX\Light">
+      <UniqueIdentifier>{a0f91f28-60c7-4dcb-8ae3-4a1d0f889d25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="frameworkDX\keyManager">
+      <UniqueIdentifier>{a740d1a7-699d-4170-b0c0-2d4fceead417}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cMtlTex.h">
+      <Filter>frameworkDX\objcet</Filter>
+    </ClInclude>
+    <ClInclude Include="cObject.h">
+      <Filter>frameworkDX\objcet</Filter>
+    </ClInclude>
+    <ClInclude Include="cObjectManager.h">
+      <Filter>frameworkDX\objcet</Filter>
+    </ClInclude>
+    <ClInclude Include="cObjLoader.h">
+      <Filter>frameworkDX\objcet</Filter>
+    </ClInclude>
+    <ClInclude Include="cGroup.h">
+      <Filter>frameworkDX\objcet</Filter>
+    </ClInclude>
+    <ClInclude Include="cTextureManager.h">
+      <Filter>frameworkDX\objcet</Filter>
+    </ClInclude>
+    <ClInclude Include="cCamera.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="cCharacter.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="cDeviceManager.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="cMainGame.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="Direct3D-Base.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="iMap.h">
+      <Filter>frameworkDX\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="cObjMap.h">
+      <Filter>frameworkDX\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Asciitok.h">
+      <Filter>frameworkDX\ASE</Filter>
+    </ClInclude>
+    <ClInclude Include="cAseLoader.h">
+      <Filter>frameworkDX\ASE</Filter>
+    </ClInclude>
+    <ClInclude Include="cFrame.h">
+      <Filter>frameworkDX\ASE</Filter>
+    </ClInclude>
+    <ClInclude Include="cLight.h">
+      <Filter>frameworkDX\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="cKeyManager.h">
+      <Filter>frameworkDX\keyManager</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="cObject.cpp">
+      <Filter>frameworkDX\objcet</Filter>
+    </ClCompile>
+    <ClCompile Include="cMtlTex.cpp">
+      <Filter>frameworkDX\objcet</Filter>
+    </ClCompile>
+    <ClCompile Include="cObjectManager.cpp">
+      <Filter>frameworkDX\objcet</Filter>
+    </ClCompile>
+    <ClCompile Include="cObjLoader.cpp">
+      <Filter>frameworkDX\objcet</Filter>
+    </ClCompile>
+    <ClCompile Include="cGroup.cpp">
+      <Filter>frameworkDX\objcet</Filter>
+    </ClCompile>
+    <ClCompile Include="cTextureManager.cpp">
+      <Filter>frameworkDX\objcet</Filter>
+    </ClCompile>
+    <ClCompile Include="cCamera.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="cCharacter.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="cDeviceManager.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="cMainGame.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Direct3D-Base.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="iMap.cpp">
+      <Filter>frameworkDX\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="cObjMap.cpp">
+      <Filter>frameworkDX\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="cAseLoader.cpp">
+      <Filter>frameworkDX\ASE</Filter>
+    </ClCompile>
+    <ClCompile Include="cFrame.cpp">
+      <Filter>frameworkDX\ASE</Filter>
+    </ClCompile>
+    <ClCompile Include="cLight.cpp">
+      <Filter>frameworkDX\Light</Filter>
+    </ClCompile>
+    <ClCompile Include="cKeyManager.cpp">
+      <Filter>frameworkDX\keyManager</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Direct3D-Base.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Direct3D-Base.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
